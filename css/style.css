@@ -104,14 +104,14 @@ nav a:focus {
 .container{
   /* Requirement 5 code here*/
   display: grid;
-  grid-template-columns:  1fr 3fr 1fr;
+  grid-template-columns:1fr 3fr 1fr;
   row-gap: 30px;
 }
 
 /* Requirements 6-10 here: */
 
 .intro {
-  background-color: #858585;
+  background-color: #707070;
   background-image: url("../images/header.jpg");
   min-height: 400px;
   background-attachment: fixed;
