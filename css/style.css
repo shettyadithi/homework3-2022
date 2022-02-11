@@ -26,7 +26,7 @@ h2{
 
 nav{
   background-color: #ddd;
-  padding: 25px 10px;;    
+  padding: 25px 10px;  
   text-align: left;   
 }
 
@@ -105,7 +105,6 @@ nav a:focus {
   /* Requirement 5 code here*/
   display: grid;
   grid-template-columns:1fr 5fr 1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr;
   row-gap: 30px;
 }
 
