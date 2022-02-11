@@ -105,6 +105,7 @@ nav a:focus {
   /* Requirement 5 code here*/
   display: grid;
   grid-template-columns:1fr 5fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr;
   row-gap: 30px;
 }
 
@@ -172,8 +173,8 @@ img {
   
   /* Requirements 12-15 here: */
 
-  a.skip:focus-visible {
-    right: 0px;
+  a.skip:focus {
+    left: 0px;
     top: 20px;
   }
 
